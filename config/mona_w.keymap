@@ -14,11 +14,11 @@
 
         default_layer {
             bindings = <
-&kp ESC                   &mt F1 N1       &mt F2 N2  &mt F3 N3  &mt F4 NUMBER_4  &mt F5 N5  &mt N6 N6  &mt F7 N7  &mt F8 N8  &mt F9 N9  &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL  &mt BSPC DEL
-&mt C_AL_MY_COMPUTER TAB  &kp Q           &kp W      &kp E      &kp R            &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P       &kp LBKT       &kp RBKT                           &kp BSLH
-&lt 1 CAPSLOCK            &kp A           &kp S      &kp D      &kp F            &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI    &kp APOS                      &kp ENTER
-&mt LSHFT CAPSLOCK                        &kp Z      &kp X      &kp C            &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT     &kp SLASH                     &mt RSHFT CAPSLOCK
-&kp LCTRL                 &lt 1 LEFT_GUI  &kp LALT                                                                &kp SPACE             &kp RALT    &kp RALT                      &lt 1 RIGHT_GUI     &kp RCTRL
+&kp ESC                   &mt F1 N1         &mt F2 N2         &mt F3 N3          &mt F4 NUMBER_4  &mt F5 N5  &mt N6 N6  &mt F7 N7  &mt F8 N8  &mt F9 N9  &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL  &mt BSPC DEL
+&mt C_AL_MY_COMPUTER TAB  &kp Q             &mt UP_ARROW W    &kp E              &kp R            &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P       &kp LBKT       &kp RBKT                           &kp BSLH
+&lt 1 CAPSLOCK            &mt LEFT_ARROW A  &mt DOWN_ARROW S  &mt RIGHT_ARROW D  &kp F            &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI    &kp APOS                      &kp ENTER
+&mt LSHFT CAPSLOCK                          &kp Z             &kp X              &kp C            &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT     &kp SLASH                     &mt RSHFT CAPSLOCK
+&kp LCTRL                 &lt 1 LEFT_GUI    &kp LALT                                                                               &kp SPACE             &kp RALT    &kp RALT                      &lt 1 RIGHT_GUI     &kp RCTRL
             >;
         };
 
