@@ -24,18 +24,18 @@
         default_layer {
             bindings = <
 &kp ESC                   &ht F1 N1         &ht F2 N2         &ht F3 N3          &ht F4 NUMBER_4  &ht F5 N5  &ht N6 N6  &ht F7 N7  &ht F8 N8  &ht F9 N9  &ht F10 N0  &ht F11 MINUS  &ht F12 EQUAL  &ht BSPC DEL
-&ht C_AL_MY_COMPUTER TAB  &kp Q             &ht UP_ARROW W    &kp E              &kp R            &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P       &kp LBKT       &kp RBKT                       &kp BSLH
+&ht C_AL_MY_COMPUTER TAB  &kp Q             &ht UP_ARROW W    &kp E              &kp R            &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P       &kp LBKT       &kp RBKT                           &kp BSLH
 &lt 1 CAPSLOCK            &ht LEFT_ARROW A  &ht DOWN_ARROW S  &ht RIGHT_ARROW D  &kp F            &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI    &kp APOS                      &kp ENTER
 &ht LSHFT CAPSLOCK                          &kp Z             &kp X              &kp C            &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT     &kp SLASH                     &ht RSHFT CAPSLOCK
-&kp LCTRL                 &lt 1 LEFT_GUI    &kp LALT                                                                               &kp SPACE             &kp RALT    &kp RALT                      &lt 1 RIGHT_GUI   &kp RCTRL
+&kp LCTRL                 &lt 1 LEFT_GUI    &kp LALT                                                                               &kp SPACE             &kp RALT    &kp RALT                      &lt 1 RIGHT_GUI     &kp RCTRL
             >;
         };
 
         fn_layer {
             bindings = <
 &kp GRAVE  &kp F1          &kp F2          &kp F3           &kp F4     &kp F5  &kp F6  &kp F7    &kp F8           &kp F9     &kp F10    &kp F11          &kp F12       &kp DELETE
-&trans     &kp INS         &sk UP_ARROW    &trans           &kp PG_UP  &trans  &trans  &kp SLCK  &kp PAUSE_BREAK  &trans     &trans     &kp C_VOLUME_UP  &kp C_VOL_DN                    &kp PRINTSCREEN
-&trans     &sk LEFT_ARROW  &sk DOWN_ARROW  &sk RIGHT_ARROW  &kp PG_DN  &trans  &trans  &trans    &kp HOME         &kp PG_UP  &trans     &kp C_MUTE                     &kp K_PLAY_PAUSE
+&trans     &kp INS         &kp UP_ARROW    &trans           &kp PG_UP  &trans  &trans  &kp SLCK  &kp PAUSE_BREAK  &trans     &trans     &kp C_VOLUME_UP  &kp C_VOL_DN                    &kp PRINTSCREEN
+&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans  &trans  &trans    &kp HOME         &kp PG_UP  &trans     &kp C_MUTE                     &kp K_PLAY_PAUSE
 &trans                     &trans          &trans           &trans     &trans  &trans  &trans    &trans           &kp END    &kp PG_DN  &trans                         &mo 2
 &trans     &trans          &trans                                                                &trans                      &trans     &trans                         &trans            &trans
             >;
