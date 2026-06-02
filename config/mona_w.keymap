@@ -22,8 +22,9 @@
             tapping-term-ms = <600>;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <0>;
+            quick-tap-ms = <500>;
             require-prior-idle-ms = <0>;
+            flavor = "tap-preferred";
         };
 
         td_shift_capslock: td_shift_capslock {
