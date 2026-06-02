@@ -10,7 +10,7 @@
 
 &mt {
     tapping-term-ms = <600>;
-    quick-tap-ms = <200>;
+    quick-tap-ms = <0>;
     require-prior-idle-ms = <125>;
 };
 
@@ -22,8 +22,16 @@
             tapping-term-ms = <600>;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <125>;
+            quick-tap-ms = <0>;
+            require-prior-idle-ms = <0>;
+        };
+
+        td_shift_capslock: td_shift_capslock {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_SHIFT_CAPSLOCK";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
         };
     };
 
@@ -35,7 +43,7 @@
 &ht ESC GRAVE             &ht F1 N1         &ht F2 N2         &ht F3 N3          &ht F4 NUMBER_4  &ht F5 N5  &ht N6 N6  &ht F7 N7  &ht F8 N8  &ht F9 N9  &ht F10 N0  &ht F11 MINUS  &ht F12 EQUAL  &ht DELETE BACKSPACE
 &ht C_AL_MY_COMPUTER TAB  &kp Q             &ht UP_ARROW W    &kp E              &kp R            &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P       &kp LBKT       &kp RBKT                             &ht PRINTSCREEN BACKSLASH
 &lt 1 CAPSLOCK            &ht LEFT_ARROW A  &ht DOWN_ARROW S  &ht RIGHT_ARROW D  &kp F            &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI    &kp APOS                      &kp ENTER
-&ht LSHFT CAPSLOCK                          &kp Z             &kp X              &kp C            &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT     &kp SLASH                     &ht RSHFT CAPSLOCK
+&td_shift_capslock                          &kp Z             &kp X              &kp C            &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT     &kp SLASH                     &td_shift_capslock
 &kp LCTRL                 &lt 1 LEFT_GUI    &kp LALT                                                                               &kp SPACE             &kp RALT    &kp RALT                      &lt 1 RIGHT_GUI       &kp RCTRL
             >;
         };
